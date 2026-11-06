@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@mcp-use/agent": "^2.0.25",
+    "@mcp-use/client": "^2.4.5",
+    "@modelcontextprotocol/client": "^2.4.0",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "mcp-use": "^2.12.2"
+  },
+  "name": "agent-harness-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
